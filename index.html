@@ -6,16 +6,25 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Week 3 Homework</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    <link rel="stylesheet" href="./style/style.css">
 </head>
 <body>
     <div id="app">
-        <div class="container">
-            <div class="form-group my-3 col-6">
-                <label for="accInput">account</label>
-                <input type="emial" id="accInput" class="form-control mb-3" v-model="user.username">
-                <label for="pswInput">password</label>
-                <input type="password" id="pswInput" class="form-control mb-3" v-model="user.password">
-                <button type="button" class="btn btn-info" @click="getAdmin">Login</button>
+        <div class="container col-4">
+            <div class="column form-group py-5 col-8">
+                <h1 class="mb-3">{{ text }}</h1>
+                <div class="form-group col">
+                    <label for="accInput" class="mb-2">| account |</label>
+                    <input type="emial" id="accInput" class="form-control mb-3" v-model="user.username">
+                 </div>
+                 <div class="form-froup">
+                    <label for="pswInput" class="mb-2">| password |</label>
+                    <input type="password" id="pswInput" class="form-control mb-3" v-model="user.password">
+                </div>
+                <div class="text-center">
+                    <button type="button" class="btn btn-dark login-button" @click="getAdmin">Login</button>
+                    <!-- <button type="button" class="btn btn-info login-button" @click="getAdmin">Login</button> -->
+                </div>
             </div>
         </div>
     </div>

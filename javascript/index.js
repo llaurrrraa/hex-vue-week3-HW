@@ -3,6 +3,7 @@ import { createApp } from 'https://cdnjs.cloudflare.com/ajax/libs/vue/3.0.9/vue.
 createApp({
     data(){
         return{
+            text: 'Login',
             apiUrl:'https://vue3-course-api.hexschool.io/v2',
             user:{
                 username:'',

@@ -1,0 +1,64 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&display=swap");
+* {
+  font-family: "Playfair Display", serif;
+  letter-spacing: 0.7px;
+}
+
+* body {
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+* body #app {
+  min-height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+* body #app .container {
+  max-width: 80%;
+  background: white;
+  border-radius: 8px;
+  -webkit-box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.2);
+          box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.2);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+* body #app .container .table th {
+  color: #c9b37a;
+}
+
+* body #app .container .btn {
+  font-family: "Playfair Display", serif;
+}
+
+* body #app .container .price {
+  color: #c9b37a;
+}
+
+* body #app .container .primary-img {
+  max-width: 100%;
+}
+
+* body #app .container .secondary-Image {
+  max-width: 48%;
+  margin-bottom: 1rem;
+  margin-right: 4px;
+}
+
+* body #app .container .login-button {
+  background-color: #c9b37a;
+  border: none;
+}
+/*# sourceMappingURL=style.css.map */
