@@ -96,12 +96,6 @@ createApp({
             keyboard: false // 能不能用鍵盤操作
         });
         delProductModal = new bootstrap.Modal(document.getElementById('delProductModal'));
-
-
-        // productModal.show();
-        // setTimeout(()=>{
-        //     productModal.hide();
-        // },3000)
     }
 
 }).mount('#app');
